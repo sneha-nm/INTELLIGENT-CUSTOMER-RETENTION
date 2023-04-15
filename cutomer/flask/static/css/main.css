@@ -1,0 +1,83 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #006699;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 500px;
+}
+
+label {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input[type="text"], select {
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+	width: 100%;
+}
+
+button.button {
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #006699;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	transition: background-color 0.3s;
+}
+
+button.button:hover {
+	background-color: #004466;
+}
+
+p.result-positive {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: green;
+}
+
+p.result-negative {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: red;
+}
